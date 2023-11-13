@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website-4</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="file-css/all.css">
+    <link rel="stylesheet" href="file-css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light  fixed-top " style="background-color: rgb(0, 0, 0); opacity: .6;" >
+        <div class="container-fluid">
+          <img src="images/bmww.png " style="width: 70px; margin-right: 20px; margin-top: 5px;" alt="">
+          <a class="navbar-brand kl" href="#">Luxury cars</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent"aria-expanded="true" aria-expanded="false" aria-label="Toggle navigation" style="background-color: aliceblue;">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse  collapse show"id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                style="color: rgb(255, 255, 252);" >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: rgb(255, 255, 252);" >Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: rgb(255, 255, 252);border: .5px white solid; border-radius: 5px;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Models
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Mercedes</a></li>
+                  <li><a class="dropdown-item" href="#">Toyota</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Ferrari</a></li>
+                  <li><a class="dropdown-item" href="#">BMW</a></li>
+                  <li><a class="dropdown-item" href="#">Bugatti</a></li>
+                  <li><a class="dropdown-item" href="#">range Rover</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" style="color: rgb(255, 255, 252);" >Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary me-4" type="submit" ml-5 >Search</button>
+              <button class="btn btn-outline-secondary me-2" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+  <div class="icons">
+    <a class="aicon" href=""><i class="fa-brands fa-facebook"></i></a>
+    <a class="aicon" href=""> <i class="fa-brands fa-whatsapp"></i></a>
+    <a class="aicon" href=""><i class="fa-brands fa-twitter"></i></a>
+    <a class="aicon" href=""><i class="fa-brands fa-instagram"></i></a>
+    <a class="aicon" href=""><i class="fa-brands fa-linkedin"></i></a>
+
+  </div>
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="images/5.jpg" alt="cairo" class="d-block w-100" style="height: 550px; background-color: rgb(229, 230, 229,.3);">
+        <div class="carousel-caption " style="background-color: rgba(60, 59, 59, 0.47)">
+          <h5 style="color: rgb(255, 255, 255);">BMW car</h5>
+          <p style="color: rgb(255, 255, 255);" >BMW is one of the best cars and is available in several colors</p>
+          <a href="#" class="btn btn-secondary text-white text-shadow" target="#">Click to buy</a>
+        </div>
+      </div>
+      <div class="carousel-item active">
+        <img src="images/sssa.jpg" alt="aswan" class="d-block w-100" style="height: 550px; background-color: rgb(229, 230, 229,.3);">
+        <div class="carousel-caption " style="background-color: rgba(60, 59, 59, 0.47)">
+          <h5 style="color: rgb(255, 255, 255);">BMW car</h5>
+          <p style="color: rgb(255, 255, 255);" >BMW is one of the best cars and is available in several colors</p>
+          <a href="#" class="btn btn-secondary text-white text-shadow" style="background-color:rgb(229, 230, 229,.3) ;" target="#">Click to buy</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/3.jpg" alt="sharm" class="d-block w-100" style="height: 550px; background-color: rgb(229, 230, 229,.3);">
+        <div class="carousel-caption " style="background-color: rgba(60, 59, 59, 0.47)">
+          <h5  style="color: rgb(255, 255, 255);">Mercedes car</h5>
+          <p style="color: rgb(255, 255, 255);" >Mercedes is one of the best cars, it is very fast and its structure is excellent</p>
+          <a href="#" class="btn btn-secondary text-white text-shadow" style="background-color:rgb(229, 230, 229,.3) ;" target="#">Click to buy</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/alli.jpg" alt="sharm" class="d-block w-100" style="height: 550px; background-color: rgb(229, 230, 229,.3); ">
+        <div class="carousel-caption " style="background-color: rgba(60, 59, 59, 0.47)">
+          <h5 style="color: rgb(255, 255, 255);">BMW car</h5>
+              <p style="color: rgb(255, 255, 255);">BMW is one of the best cars and is available in several colors</p>
+              <a href="#" class="btn btn-secondary text-white text-shadow" style="background-color:rgb(229, 230, 229,.3) ;" target="#">Click to buy</a>
+            </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    
+   
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: #b1b1b1;">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-dark">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else</div>
+          </div>
+          <div class="mb-3 ">
+            <label for="exampleInputPassword1" class="form-label text-dark">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remmember me</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button type="button" class="btn bg-dark text-light" data-bs-dismiss="modal">login</button>
+        <button type="button" class="btn bg-dark text-light" >Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    </div>
+  </div>
+
+
+<!-- //////////////////////////// -->
+<div class="card-body " style="background-color: rgb(197, 195, 195);">
+  <h2 class="card-title title ">Welcome</h2>
+  <p class="card-text">Are you planning to visit Egypt? We offer the ultimate tour in Egypt, covering Cairo,
+    alex. From a one day trip to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/7
+    Customer Service. .</p>
+  <a href="#" class="btn  balaa btn-light text-dark  btn-lg m-auto">Learn more</a>
+</div>
+<section class="cards">
+
+
+  <hr>
+  <div class="mx-auto my-2 p-4  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(188, 190, 190);">
+    <h1>The best types of cars</h1>
+  </div>
+  <div class="accordion" id="accordioncollapse">
+    <div class="accordion-item">
+      <h2 class="accordion-header " id="head1">
+        <button class="accordion-button collapsed btn-outline-secondary text-dark title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;">
+         BMW
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="head1" data-bs-parent="#accordioncollapse">
+        <div class="accordion-body border-info text-secondary">
+          Mercedes is one of the best cars ever and is very fast. There are several colors, but black is the most beautiful color in my opinion. </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="head2">
+        <button class="accordion-button collapsed btn-outline-secondary text-dark title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 20px;">
+          Mercedes
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accordioncollapse">
+        <div class="accordion-body border-info text-secondary">
+          The BMW car is considered one of the best cars ever. It is characterized by very high speed and a very excellent structure. There are several colors, but black is the most beautiful color in my opinion, and the blue color is also distinctive.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="head3">
+          <button class="accordion-button collapsed btn-outline-secondary text-dark  shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 20px;">
+            Ferrari 
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#accordioncollapse">
+          <div class="accordion-body border-info text-secondary">
+            Ferrari is one of the best cars ever. It is characterized by very high speed and a very excellent structure. There are several colors and its price is somewhat expensive, but the car is worth the price. </div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(197, 197, 197);">
+        <h1>Translation from English to: Arabic</h1>
+      </div>
+      <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(231, 237, 237);">
+        <div class="card-body">
+          <h4 class="card-title  " style="color: black; font-size: 25px; font-weight: 600;">ًWrite and Translate <a href="https://www.google.com/search?q=%D9%85%D8%AA%D8%B1%D8%AC%D9%85+%D8%AC%D9%88%D8%AC%D9%84&oq=%D9%85%D8%AA%D8%B1%D8%AC%D9%85&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyDwgCEAAYQxiDARixAxiKBTINCAMQABiDARixAxiABDIGCAQQRRg9MgYIBRBFGEEyBggGEEUYPTIGCAcQRRg90gEHOTM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style="text-decoration: none; color: black;" target="_blank" rel="noopener">Press Here</a></h4>
+          <button class="btn btn-light text-secondary border border-2 btntranslate shadow-lg " style="font-size: 18px;">
+            Copy
+          </button>
+          <br>
+          <textarea id="sentence" class="form-control mx-auto mt-3" rows="4.5" placeholder="Translate:-" name="text"></textarea>
+        </div>
+      </div>
+      <hr>
+      <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(197, 197, 197);">
+        <h1>Write some notes</h1>
+      </div>
+      <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(231, 237, 237);">
+        <div class="card-body">
+          <h4 class="card-title  " style="color: black; font-size: 25px; font-weight: 600; text-align: center; font-size: 18px; font-style: oblique;">ًWrtie down some thoughts and notes<a href="https://www.google.com/search?q=%D9%85%D8%AA%D8%B1%D8%AC%D9%85+%D8%AC%D9%88%D8%AC%D9%84&oq=%D9%85%D8%AA%D8%B1%D8%AC%D9%85&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyDwgCEAAYQxiDARixAxiKBTINCAMQABiDARixAxiABDIGCAQQRRg9MgYIBRBFGEEyBggGEEUYPTIGCAcQRRg90gEHOTM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style="text-decoration: none; color: black;" target="_blank" rel="noopener">Press Here</a></h4>
+          
+          <br>
+          <textarea id="sentence" class="form-control mx-auto mt-3" rows="4.5" placeholder="Write:" name="text"></textarea>
+        </div>
+      </div>
+      <hr>
+      <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(197, 197, 197);">
+        <h1>Translation from German to Arabic</h1>
+      </div>
+        <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(231, 237, 237);">
+        <div class="card-body">
+          <h4 class="card-title  " style="color: black; font-size: 25px; font-weight: 600;">ًWrite and Translate <a href="https://www.google.com/search?q=%D9%85%D8%AA%D8%B1%D8%AC%D9%85+%D8%AC%D9%88%D8%AC%D9%84&oq=%D9%85%D8%AA%D8%B1%D8%AC%D9%85&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDsyDwgCEAAYQxiDARixAxiKBTINCAMQABiDARixAxiABDIGCAQQRRg9MgYIBRBFGEEyBggGEEUYPTIGCAcQRRg90gEHOTM2ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" style="text-decoration: none; color: black;" target="_blank" rel="noopener">Press Here</a></h4>
+          <button class="btn btn-light text-secondary border border-2 btntranslate shadow-lg " style="font-size: 18px;">
+            Copy
+          </button>
+          <br>
+          <textarea id="sentence" class="form-control mx-auto mt-3" rows="4.5" placeholder="Translate:-" name="text"></textarea>
+        </div>
+      </div>
+</div></div></section>
+<div class="fixed-img fixed-images"></div>
+<section class="cars">
+  <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(197, 195, 195);">
+    <h1 class="title" style="font-size: 40px;">Watch now the best types of cars</h1>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-around pb-5 ">
+     
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/BMW.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">BMW</h5>
+          <p class="card-text" style="color: black;">The best car for me</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+      
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/فيرارى.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Ferrari</h5>
+          <p class="card-text" style="color: black;">Very excellent car</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+      
+     
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/سوبرا.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Supra</h5>
+          <p class="card-text" style="color: black;">One of the fastest cars</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+      
+   
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/ماكلرين.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">McLaren</h5>
+          <p class="card-text" style="color: black;">A very special car</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+      
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/بوغاتى.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Bugatti</h5>
+          <p class="card-text" style="color: black;">Great looking car</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+      
+     
+      <div class="card cardover  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/رانج روفر.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Range Rover</h5>
+          <p class="card-text" style="color: black;">It has an excellent structure</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+
+      <div class="card cardover  alaa bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/مارسيدس.jpg" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Mercedes</h5>
+          <p class="card-text" style="color: black;">It has almost no defects</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+     
+    <div class="card cardover alaa  bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+        <input type="image" src="images/jep.webp" class="card-img-top shadow w-100" alt=" pic" style="height:250px; width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;">Jeep</h5>
+          <p class="card-text" style="color: black;">It has a massive structure</p>
+          <button class="btn btn-dark text-light mx-auto d-block">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</section>
+<div class="fixed-img2 fixed-images2"></div>
+<div class="card p-3  text-white shadow-lg" style="background-color: rgb(225, 225, 225);">
+  <h2 class="text-center text-dark m-3 title" style="font-size: 40px; font-style: oblique;">Thanks For</h2>
+</div>
+<!-- //////////////////////// -->
+<section class="wrapper">
+  <div class="container" style="width: 100%; min-height: 500px;">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-dark card-has-bg click-col thankcard" style="background-image:url('images/boosmarceds.webp'); background-size: cover; background-repeat: no-repeat;">
+          <img class="card-img d-none" >
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small style="color: white;"><i class="far fa-clock"></i> October 15, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/شعار مرسديس.jpg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">CEO of the company</h6>
+                  <small style="color: white; font-size: 17px; font-style: oblique;">Mercedes</small>
+                </div>
+              </div>
+            </div> <!-- card-footer
+       </div> /card-img-overlay -->
+          </div> <!-- /card -->
+        </div> <!-- /card3 -->
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('images/boos\ bmw.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <img class="card-img d-none" >
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small><i class="far fa-clock"></i> October 15, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/شعار bmw.jpg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">CEO of the company</h6>
+                  <small style="color: white; font-size: 17px; font-style: oblique;">BMW</small>
+                </div>
+              </div>
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+        <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('images/boos\ ferary.jpg'); background-size: cover; background-repeat: no-repeat;">
+          <img class="card-img d-none">
+          <div class="card-img-overlay d-flex flex-column">
+            <div class="card-body">
+
+              <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+              <small><i class="far fa-clock"></i> October 15, 2023</small>
+            </div>
+            <div class="card-footer">
+              <div class="media">
+                <img class="mr-3 rounded-circle" src="images/شعار فيارى.jpeg" alt="Generic placeholder image" style="width:100px">
+                <div class="media-body">
+                  <h6 class="my-0 text-white d-block">CEO of the company</h6>
+                  <small style="color: white; font-size: 17px; font-style: oblique;">Ferrari</small>
+                </div>
+              </div>
+            </div> <!-- card-footer -->
+          </div> <!-- /card-img-overlay -->
+        </div> <!-- /card -->
+      </div> <!-- /card3 -->
+
+    </div> <!-- /row -->
+  </div>
+</section>
+<!-- //////////////// -->
+<div class="h1 text-center salwa  title" id="pageHeaderTitle" style="font-size: 55px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">cars</div>
+<!-- //////////////// -->
+
+
+
+
+<section class="container light af"> <!-- postcards news -->
+        <!-- 1st card -->
+
+    <article class="postcard d-flex light blue mt-5 zz" style="box-shadow: 0 4px 21px 2px rgba(0, 0, 0, 0.86);">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img bb oo" >
+      </a>
+      <div class="postcard__text t-dark aa">
+        <h1 class="postcard__title blue salwaaa alaaa" ><a class="kk"   href="#" style="text-decoration: none; ">Mercedes</a></h1>
+        <div class="postcard__subtitle small">
+          <time datetime="2020-05-25 12:00:00">
+            <i class="fas fa-calendar-alt salwaaa mr-2 jj"  ></i>Mon, March 215th 2022
+          </time>
+        </div>
+        <div class="postcard__bar salwaaa jj"  ></div>
+        <div class="postcard__preview-txt salwaaa lk" style="margin-left: 20px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+          asperiores inventore beatae</br> accusamus odit minima enim,br commodi quia, doloribus eius! Ducimus nemo
+          accusantium maiores
+      </div>
+        <ul class="postcard__tagbox salwaaaw ss " style="margin-top: 90px;">
+          <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+          <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+          <li class="tag__item play blue">
+            <a style="text-decoration: none;  color: #000;" href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+          </li>
+        </ul>
+      </div>
+    </article>  
+
+
+
+    
+    <article class="postcard d-flex light blue mt-5 zz" style="box-shadow: 0 4px 21px 2px rgba(0, 0, 0, 0.86);"> <!-- 1st card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img hh" >
+      </a>
+      <div class="postcard__text t-dark aa">
+        <h1 class="postcard__title blue alaaa" ><a class="kk"  href="#" style="text-decoration: none; ">Ferrari</a></h1>
+        <div class="postcard__subtitle small">
+          <time datetime="2020-05-25 12:00:00">
+            <i class="fas fa-calendar-alt mr-2 jj"  ></i>Mon, March 215th 2022
+          </time>
+        </div>
+        <div class="postcard__bar jj" ></div>
+        <div class="postcard__preview-txt lk" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+          asperiores inventore beatae</br> accusamus odit minima enim,br commodi quia, doloribus eius! Ducimus nemo
+          accusantium maiores
+          </div>
+        <ul class="postcard__tagbox ss " style="margin-left: 230px;">
+          <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+          <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+          <li class="tag__item play blue">
+            <a style="text-decoration: none;  color: #000;" href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+          </li>
+        </ul>
+      </div>
+  </article> 
+
+
+
+<!-- 1st card -->
+
+  
+<article class="postcard d-flex light blue mt-5 zz" style="box-shadow: 0 4px 21px 2px rgba(0, 0, 0, 0.86);">
+  <a class="postcard__img_link" href="#">
+    <img class="postcard__img bb oo" >
+  </a>
+  <div class="postcard__text t-dark aa mm">
+    <h1 class="postcard__title blue salwaaa alaaa" ><a class="kk"   href="#" style="text-decoration: none; ">Mercedes</a></h1>
+    <div class="postcard__subtitle small">
+      <time datetime="2020-05-25 12:00:00">
+        <i class="fas fa-calendar-alt salwaaa mr-2 jj"  ></i>Mon, March 215th 2022
+      </time>
+    </div>
+    <div class="postcard__bar salwaaa jj"  ></div>
+    <div class="postcard__preview-txt salwaaa lk" style="margin-left: 20px;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+      asperiores inventore beatae</br> accusamus odit minima enim,br commodi quia, doloribus eius! Ducimus nemo
+      accusantium maiores
+      </div>
+    <ul class="postcard__tagbox salwaaaw ss nn" style="margin-top: 90px;">
+      <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+      <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+      <li class="tag__item play blue">
+        <a style="text-decoration: none;  color: #000;" href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+      </li>
+    </ul>
+  </div>
+</article>  
+
+
+
+    <article class="postcard d-flex light blue mt-5 zz" style="box-shadow: 0 4px 21px 2px rgba(0, 0, 0, 0.86);"> <!-- 1st card -->
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img  ll" >
+      </a>
+      <div class="postcard__text t-dark aa">
+        <h1 class="postcard__title blue alaaa" ><a class="kk"  href="#" style="text-decoration: none; ">BMW</a></h1>
+        <div class="postcard__subtitle small">
+          <time datetime="2020-05-25 12:00:00">
+            <i class="fas fa-calendar-alt mr-2 jj"  ></i>Mon, March 215th 2022
+          </time>
+        </div>
+        <div class="postcard__bar jj" ></div>
+        <div class="postcard__preview-txt lk" > Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat
+          asperiores inventore beatae</br> accusamus odit minima enim,br commodi quia, doloribus eius! Ducimus nemo
+          accusantium maiores
+          </div>
+        <ul class="postcard__tagbox ss " style="margin-left: 230px;">
+          <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+          <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+          <li class="tag__item play blue">
+            <a style="text-decoration: none;  color: #000;" href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+          </li>
+        </ul>
+      </div>
+    </article> 
+  </div> 
+</section>
+
+
+
+
+
+
+<h2 class="text-center text-dark title" style="font-size: 30px; margin-top: 40px; font-style: oblique; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >Join Us</h2>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgba(0, 0, 0, 0.432);">
+      <div class="card-body text-dark d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Subscribe Now
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/twetter.jpg" type="image" alt="icon">
+        <a href="#" target="_blank" class="card-link h4 text-dark  " style="text-decoration: none; ">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgba(0, 0, 0, 0.432);">
+      <div class="card-body text-dark d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Follow
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/whats.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-dark " style="text-decoration: none; ">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px;  box-shadow: -5px -5px 20px 10px rgba(0, 0, 0, 0.432)">
+      <div class="card-body text-dark d-flex flex-column text-center">
+        <h3 class="card-title mb-4">Like the page
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/in.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-dark " style="text-decoration: none; ">Go to link</a>
+      </div>
+    </div>
+    <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgba(0, 0, 0, 0.432)">
+      <div class="card-body text-dark d-flex flex-column text-center">
+        <h3 class="card-title mb-4">watch vedios
+        </h3>
+        <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/insta.jpg" type="image" alt="icon">
+        <a href="" target="_blank" class="card-link h4 text-dark " style="text-decoration: none; ">Go to link</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //////////////////// -->
+
+
+
+
+
+
+<footer class=" text-light pb-5 bg-dark">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <hr class=" border-top border-3 border-light my-3">
+        <h5><img src="images/bmww.png" alt="good pic" class="logoicon rounded-circle">&nbsp; Good Company</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <address>
+          <p>Tel : 000-000-000</p>
+          <p>Address : Several countries</p>
+          <p>Fax : 000-000-000</p>
+        </address>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="images/bmww.png" alt="good pic" class="logoicon rounded-circle ">&nbsp; Important links</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p class="pp bg"><a  href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Visit Us</a></p>
+        <p><a href="#" style="text-decoration: none; color: rgb(255, 255, 255);">Take alook</a></p>
+        <p><a href="#" style="text-decoration: none; color: rgb(255, 255, 255);" >Car modification places</a></p>
+      </div>
+      <div class="col-md-4">
+        <hr class="border-top border-3 border-light my-3">
+        <h5><img src="images/bmww.png" alt="good pic" class="logoicon rounded-circle">&nbsp; Vision</h5>
+        <hr class="border-top border-3 border-light my-3">
+        <p>Serveices for all </p>
+        <p>Provide best serveices</p>
+        <p>you will be better than before</p>
+      </div>
+    </div>
+  </div>
+  <hr class="border-top border-3 border-light my-3">
+  <span class="text-center d-block title">Copyright © 2023 Abd El Basset Ali, wonderful companies, all rights
+    </span>
+  <hr class="border-top border-3 border-light my-3">
+
+      
+</footer>
+      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

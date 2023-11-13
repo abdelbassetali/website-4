@@ -1,0 +1,913 @@
+.navbar-brand{
+
+        text-transform: uppercase;
+        background: linear-gradient(to left, #0a0a0a 0%, #d8d8d8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 30px;
+      
+}
+.nav-link{
+        text-transform: capitalize;
+        background: linear-gradient(to left, #000000 0%, #e3e0e0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+}
+.dropdown-item{
+        background: linear-gradient(to right, #0d1630 20%, rgb(170, 170, 170) 35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+}
+.icons{
+        position: absolute;
+        height: 350px;
+        width: 50px;
+        z-index: 5;
+        margin-left: 1200px;
+        margin-top: 200px;
+        position: fixed;
+}
+.aicon{
+        font-size: 45px;
+        color: #9e9e9e;
+}
+.aicon:hover{
+color: rgb(50, 50, 50)
+
+}
+.balaa:hover{
+background-color: rgb(175, 179, 187);
+}
+.title2{
+      
+	text-transform: uppercase;
+	background: linear-gradient(to right, #0f5e5e 0%, #c8bfd2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+
+.cardover::after{
+        position: absolute;
+        content: "";
+        
+        width: 0;
+        height: 0;
+    
+    
+        bottom: 0;
+        right: 0;
+      
+        background-color: rgb(44, 45, 45);
+        opacity: 0;
+        transition: .8s;
+    
+    }
+    .cardover:hover::after{
+    height: 100%;
+    width: 100%;
+    opacity: .1;
+    }
+    .cardover::before{
+        position: absolute;
+        content: "";
+        
+        width: 0;
+        height: 0;
+    
+    
+        top: 0;
+        left: 0;
+      
+        background-color: rgb(44, 45, 45);
+        opacity: 0;
+        transition: .8s;
+    
+    }
+    .cardover:hover::before{
+    height: 100%;
+    width: 100%;
+    opacity: .1;
+    }
+    .cardover{
+        height: 400px;
+        width: 370px;
+    }
+    .alaa{
+        width: 460px;
+
+    }
+    .fixed-images{
+        background-image: url(../images/back.jpg);
+    }
+  .fixed-img{
+        background-attachment: fixed;
+        background-size: cover;
+        height: 400px;
+  }
+  .fixed-images2{
+        background-image: url(../images/alli.jpg);
+    }
+  .fixed-img2{
+        background-attachment: fixed;
+        background-size: cover;
+        height: 400px;
+  }
+  .thankcard{
+        height: 400px;
+        width: 300px;
+  }
+  .text-white{
+        text-decoration:none ;
+  }
+  .card-img-overlay{
+        background-color:rgba(25, 24, 24, 0.5) ;
+        border-radius: 10px;
+  }
+  .card-hover{
+        border-radius: 10px;
+   margin-top: 20px;
+   transition: .3s;
+
+  }
+  .card-hover:hover{
+        transform: scale(.9 , .9);
+        transition: .3s;
+  }
+  .salwa{
+        background: linear-gradient(to left, #000000 40%, rgb(255, 255, 255) 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+  }
+  .aa{
+      background-color: #d0d0d0;
+      height: 350px;
+      border-radius: 5px;
+      width: 100%;
+
+  }
+        
+  /* .bb {
+      background-image: url(../images/ala12.webp);
+      transform-origin: right bottom;
+  width: 200px;
+  height: 58%;
+  right: 0;
+margin-right: 74px;
+  position: absolute;
+    
+  clip-path: polygon(44% 0, 100% 0%, 100% 100%, 0 100%, 16% 63%);    
+  transition: .5s;  
+  } */
+
+
+.ss{
+      margin-top: 100px;
+      display: inline-block;
+}
+.postcard__tagbox .tag__item{
+      display: inline-block;
+      background: rgba(83, 83, 83, 0.4);
+      border-radius: 3px;
+      padding: 2.5px 10px;
+      margin: 0 5px 5px 0;
+      cursor: default;
+      -webkit-user-select: none;
+      user-select: none;
+      transition: 0.5s;
+      
+
+}
+
+.postcard__tagbox .tag__item:hover{
+      background-color: #f4f5f5;
+}
+.postcard__bar{
+      background-color: #1f1f1f;
+      width: 120px;
+      height: 6px;
+      margin: 10px 5px;
+      border-radius: 2.5px;
+      background-color: #000000;
+      transition:  0.2s ease;
+}
+ .logoicon {
+      height: 80px;
+      width: 80px;
+      box-shadow: -3px -3px 20px 10px rgba(13, 13, 13, 0.596);
+      border-radius: 24%;
+      transition: 1s;
+  }
+  .postcard:hover .postcard__bar{
+      background-color: #838383;
+      width: 190px;
+  }
+  /* ///////////////////////////////////// */
+
+.hh{
+      background-image: url(../images/فيرارى\ علاء.jpg);
+      transform-origin: left top;
+  width: 200px;
+  height: 58%;
+  left: 0;
+margin-right: 60px;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 66% 100%, 0% 100%);
+    transition: .5s;
+ margin-left: 74px;
+ background-size: cover;
+ 
+}
+
+
+
+
+
+
+
+/* /////////////////////////////// */
+.ll{
+  background-image: url(../images/bmw3.webp);
+  transform-origin: left top;
+width: 200px;
+height: 58%;
+left: 0;
+margin-right: 60px;
+position: absolute;
+clip-path: polygon(0 0, 100% 0, 66% 100%, 0% 100%);
+ transition: .5s;
+margin-left: 74px;
+background-size: cover;
+}
+  
+    a{
+      color: #000000;
+    }
+    .kk:hover{
+      color: #6e6e6e;
+    }
+    .postcard:hover .hh {
+      cursor: pointer;
+      transform: scaleX(1.3);
+      z-index: 999;
+    }
+
+    .postcard:hover .bb{
+      cursor: pointer;
+      transform: scaleX(1.3);
+      z-index: 999;
+    }
+    .alaaa ,.jj ,.lk{
+      margin-left: 270px;
+    }
+    .salwaaa{
+      margin-left: 20px;
+    }
+    .salwaaaw{
+      margin-top: 20px;
+    }
+    .oo{
+      transform-origin: right top;
+      width: 200px;
+      height: 58%;
+      right:  0;
+      margin-right: 60px;
+      position: absolute;
+      clip-path: polygon(42% 0, 100% 0, 100% 100%, 0% 100%);       transition: .5s;
+      margin-left: 74px;
+      background-size: cover;
+      background-image: url(../images/لامبرج.jpg);
+
+
+    }
+
+    /* /////////////////////////// */
+    @media(min-width:0px) and (max-width:576px){
+
+      .hh{
+     width: 95.5%;  
+           left: 0;
+       max-height: 160px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);  
+            transform: scaleX(1);
+       background-image: url(../images/فيرارى\ علاء\(2\).jpg);
+       background-size: cover;
+       margin-left: 12px;
+      }
+      .postcard:hover .hh{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 20px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 13px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 160px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+
+    }
+    @media(min-width:567px) and (max-width:768px){
+
+      .hh{
+     width: 90.2%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);       transform: scaleX(1);
+       background-image: url(../images/فيرارى\ علاء\(2\).jpg);
+       background-size: cover;
+       margin-left: 20px;
+      }
+      .postcard:hover .hh{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 30px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 16px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 665px;
+      margin-left: -90px;
+  }
+
+    }
+    @media(min-width:768px) and (max-width:992px){
+
+      .hh{
+     width: 86%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);       transform: scaleX(1);
+       background-image: url(../images/فيرارى\ علاء\(3\).jpg);
+       background-size: cover;
+       margin-left: 30px;
+      }
+      .postcard:hover .hh{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 805px;
+      margin-left: -90px;
+  }
+
+    }
+
+
+    @media(min-width:992px) and (max-width:1200px){
+
+      .hh{
+     width: 86%;  
+       object-fit: cover;
+       margin-bottom: -360px;
+       transform-origin: top bottom;
+       width: 200px;
+     margin-right: 74px;
+       position: absolute;
+       clip-path: polygon(0 0, 89% 0, 49% 100%, 0% 100%);      
+               transition: .5s;   
+               background-image: url(../images/فيرارى\ علاء.jpg);
+               background-size: cover;
+       margin-left: 55px;
+       height: 61.5%;
+      }
+      .postcard:hover .hh{
+            cursor: pointer;
+            transform: scaleX(1.1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 205px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 205px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+  }
+  .alaaa{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 205px;
+      left:  0;
+  }
+  .zz{
+      width: 898px;
+      margin-left: 20px;
+  }
+
+    }
+    .postcard:hover .ll {
+      cursor: pointer;
+      transform: scaleX(1.3);
+      z-index: 999;
+    }
+    /* //////////////////////////////////////////// */
+
+    @media(min-width:0px) and (max-width:576px){
+
+      .ll{
+     width: 95.5%;  
+           left: 0;
+       max-height: 160px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);  
+            transform: scaleX(1);
+       background-image: url(../images/bmw4.jpg);
+       background-size: cover;
+       margin-left: 12px;
+      }
+      .postcard:hover .ll{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 20px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 13px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 160px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+
+    }
+    @media(min-width:567px) and (max-width:768px){
+
+      .ll{
+     width: 90.2%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); 
+             transform: scaleX(1);
+       background-image: url(../images/bmw2.jpg);
+       background-size: cover;
+       margin-left: 20px;
+      }
+      .postcard:hover .ll{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 30px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 16px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 665px;
+      margin-left: -90px;
+  }
+
+    }
+    @media(min-width:768px) and (max-width:992px){
+
+      .ll{
+     width: 86%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);   
+           transform: scaleX(1);
+       background-image: url(../images/bmw1.jpg);
+       background-size: cover;
+       margin-left: 30px;
+      }
+      .postcard:hover .ll{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 805px;
+      margin-left: -90px;
+  }
+
+    }
+
+
+    @media(min-width:992px) and (max-width:1200px){
+
+      .ll{
+     width: 86%;  
+       object-fit: cover;
+       margin-bottom: -360px;
+       transform-origin: top bottom;
+       width: 200px;
+     margin-right: 74px;
+       position: absolute;
+       clip-path: polygon(0 0, 89% 0, 49% 100%, 0% 100%);      
+               transition: .5s;   
+               background-image: url(../images/bmw1.jpg);
+               background-size: cover;
+       margin-left: 55px;
+       height: 61.5%;
+      }
+      .postcard:hover .ll{
+            cursor: pointer;
+            transform: scaleX(1.1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 205px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 205px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+  }
+  .alaaa{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 205px;
+      left:  0;
+  }
+  .zz{
+      width: 898px;
+      margin-left: 20px;
+  }
+
+    }
+    /* ////////////////////////////////////////////// */
+    @media(min-width:0px) and (max-width:576px){
+
+      .oo{
+     width: 95.5%;  
+           left: 0;
+       max-height: 160px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);  
+            transform: scaleX(1);
+       background-image: url(../images/لامبرج.jpg);
+       background-size: cover;
+       margin-left: 12px;
+      }
+      .postcard:hover .oo{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 20px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 13px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+      display: none;
+  }
+  .alaaa{
+      margin-top: 160px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+
+    }
+    @media(min-width:567px) and (max-width:768px){
+
+      .oo{
+     width: 90.2%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); 
+             transform: scaleX(1);
+       background-image: url(../images/لامبرج4.jpg);
+       background-size: cover;
+       margin-left: 20px;
+      }
+      .postcard:hover .oo{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 30px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 15px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 665px;
+      margin-left: -90px;
+  }
+
+    }
+    @media(min-width:768px) and (max-width:992px){
+
+      .oo{
+     width: 86%;  
+           left: 0;
+       max-height: 170px;
+       object-fit: cover;
+       margin-bottom: -360px;
+       clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);   
+           transform: scaleX(1);
+       background-image: url(../images/لامبرج3.webp);
+       background-size: cover;
+       margin-left: 30px;
+      }
+      .postcard:hover .oo{
+            cursor: pointer;
+            transform: scaleX(1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 25px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 16px;
+            display: inline-block;
+            margin-left: 25px;
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+      display: none;
+  }
+  .alaaa{
+      margin-top: 170px;
+      display: inline-block;
+      margin-left: 25px;
+      left:  0;
+  }
+  .zz{
+      width: 805px;
+      margin-left: -90px;
+  }
+
+    }
+
+
+    @media(min-width:992px) and (max-width:1200px){
+
+      .oo{
+     width: 86%;  
+       object-fit: cover;
+       margin-bottom: -360px;
+       transform-origin: top bottom;
+       width: 200px;
+     margin-right: 51px;
+       position: absolute;
+       clip-path: polygon(42% 0, 100% 0, 100% 100%, 0% 100%);
+                      transition: .5s;   
+               background-image: url(../images/لامبرج2.jpg);
+               background-size: cover;
+       margin-left: 55px;
+       height: 61.5%;
+      }
+      .postcard:hover .oo{
+            cursor: pointer;
+            transform: scaleX(1.1);
+            z-index: 999;
+          }
+      .alaaa{
+            font-size: 35px;
+            margin-left: 205px;
+            display: block;
+
+     }
+      .lk , .jj{
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 205px;
+            
+
+      }
+    
+  .ss{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 25px;
+
+  }
+  .alaaa{
+      margin-top: 10px;
+      display: inline-block;
+      margin-left: 205px;
+      left:  0;
+  }
+  .zz{
+      width: 898px;
+      margin-left: 20px;
+  }
+
+    }
+    /* ///////////////////// */
+    .navbar-brand :hover{
+      box-shadow: 0 4px 21px 2px rgba(255, 187, 187, 0.86);    }
+    
+      .bg:hover{
+color: #585858;
+      }
+ 
+ 
