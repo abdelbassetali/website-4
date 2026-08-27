@@ -909,5 +909,9 @@ background-size: cover;
       .bg:hover{
 color: #585858;
       }
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 200px !important; /* ارتفاع صغير جداً وواضح عالموبايل */
+    }
  
  
